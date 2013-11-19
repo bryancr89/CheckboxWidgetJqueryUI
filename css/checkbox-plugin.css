@@ -1,0 +1,26 @@
+.ui-plugin-checkbox {
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	background: rgba(128, 128, 128, 0.69);
+	color: white;
+	width: 100px;
+	height: 39px;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	cursor: pointer;
+	box-shadow: 0px 1px 3px black;
+}
+
+.ui-plugin-checkbox-checked {
+	background-color: green;
+}
+
+.ui-plugin-checkbox-unchecked {
+	background-color: none;
+}
+
+.ui-plugin-checkbox-hide-input{
+	display: none;
+}
